@@ -33,7 +33,7 @@
       </div>
       <div class="navbar-collapse collapse">
         <p class="navbar-text pull-right">
-          Fork me on <a target="_blank" href="http://github.com/HHROC/traffairious" class="navbar-link">Github</a>
+          Fork me on <a target="_blank" href="http://github.com/printlure/PrintLure" class="navbar-link">Github</a>
         </p>
         <ul class="nav navbar-nav">
           <li><a href="/about">About</a></li>
