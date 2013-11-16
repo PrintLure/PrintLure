@@ -1,0 +1,25 @@
+author: Remy DeCausemaker
+classifiers: ['Topic :: Printing', 'Intended Audience :: Manufacturing']
+description: Community Marketplace for 3D printed Fishing Lures
+directories: [/home/decause/code/printlure/printlure, /home/decause/code/printlure/printlure/tests,
+  /home/decause/code/printlure/printlure/docs, /home/decause/code/printlure/printlure/printlure]
+docs_dir: /home/decause/code/printlure/printlure/docs
+email: remyd@civx.us
+encoding: utf8
+files: [/home/decause/code/printlure/printlure/setup.py, /home/decause/code/printlure/printlure/printlure/__init__.py,
+  /home/decause/code/printlure/printlure/tests/__init__.py, /home/decause/code/printlure/printlure/tests/printlure_tests.py]
+init_file: null
+keywords: [3D printing, fishing, angler, lure, fisherman, flask, mako, bootstrap,
+  startupweekend]
+license: AGPL
+name: printlure
+project_dir: /home/decause/code/printlure/printlure
+requires: [flask, flask-mako]
+setup_file: /home/decause/code/printlure/printlure/setup.py
+shortname: printlure
+source_dir: /home/decause/code/printlure/printlure/printlure
+test_file: /home/decause/code/printlure/printlure/tests/printlure_tests.py
+test_init_file: /home/decause/code/printlure/printlure/tests/__init__.py
+tests_dir: /home/decause/code/printlure/printlure/tests
+url: http://printlure.com
+version: 0.1.0
