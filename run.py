@@ -17,7 +17,21 @@ mako = MakoTemplates(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html', name='mako')
+    integer = 7
+    return render_template('index.html', nam='mako',
+                            integer=integer)
+
+@app.route('/stlview')
+def stlview():
+    return render_template('stlview.mak', nam='mako')
+
+@app.route('/walkingpopper')
+def walkingpopper():
+    return render_template('webgl_loader_stl.html', name='mako')
+
+
+
+
 
 
 @app.route('/about')
