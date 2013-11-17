@@ -23,55 +23,42 @@
             //thingiview.setCameraZoom(-20);
         }
         </script>
-<div class="col-md-1"></div>
-<div class="col-md-2">
-<div class="btn-group-vertical btn-group-sm padded">
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> Lipless </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> Bill Mouth </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
-</div>
-</div>
-
-<div class="col-md-6">
-<div class="btn-group padded">
+<div class="col-md-1"> </div>
+<div class="col-md-5">
+<div class="btn btn-group navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-        Perspective <span class="caret"></span>
+        Eyes <span class="caret"></span>
 </button>
 <ul class="dropdown-menu" role="menu">
-        <li><a href="javascript:thingiview.setCameraView('top');"> Top </a></li>
-        <li><a href="javascript:thingiview.setCameraView('side');"> Side </a></li>
-        <li><a href="javascript:thingiview.setCameraView('bottom');"> Bottom </a></li>
-        <li><a href="javascript:thingiview.setCameraView('diagonal');"> Diagonal </a></li>
+        <li><a href="#"> Big </a></li>
+        <li><a href="#"> Small </a></li>
+        <li><a href="#"> Mean </a></li>
 </ul>
 </div>
-
-<div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(5);"> Zoom in </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(-5);"> Zoom out </button>
+<div class="btn btn-group navbar-btn">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Mouth <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Big </a></li>
+        <li><a href="#"> Lipless </a></li>
+        <li><a href="#"> Small </a></li>
+        <li><a href="#"> Wide </a></li>
+        <li><a href="#"> Narrow </a></li>
+        <li><a href="#"> Bill </a></li>
+</ul>
 </div>
-<div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(true);"> Rotation On </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(false);"> Rotation Off </button>
+<div class="btn btn-group navbar-btn">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Tail <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="#"> Long </a></li>
+        <li><a href="#"> Stubby </a></li>
+        <li><a href="#"> Short </a></li>
+</ul>
 </div>
-<div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('wireframe');"> Wireframe </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
-</div>
-<!--viewer--> 
-<div id="viewer" class="padded" style="width:500px;height:500px;" onLoad="removePlaneAndZoomOut();"></div>
-</div>
-<div class-"col-md-2">
-<div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Go!</button>
-      </span>
-      <input type="text" class="form-control">
-</div><!-- /input-group -->
-<div class="btn-group padded">
+<div class="btn btn-group navbar-btn">
 <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
         Model Color <span class="caret"></span>
 </button>
@@ -88,6 +75,51 @@
         <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
 </ul>
 </div>
+<!--<div class="btn-group-vertical btn-group">
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> Lipless </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> Bill Mouth </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
+</div>--> 
+    <a class="padded btn btn-success navbar-btn" href="/static/data/walking_popper.stl"> Download </a>
+<div class="input-group navbar-btn">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Text</button>
+      </span>
+      <input type="text" class="form-control">
+</div><!-- /input-group -->
+</div><!-- /col-md-2 -->
+
+<div class="col-md-5">
+<div class="btn-group padded">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Perspective <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.setCameraView('top');"> Top </a></li>
+        <li><a href="javascript:thingiview.setCameraView('side');"> Side </a></li>
+        <li><a href="javascript:thingiview.setCameraView('bottom');"> Bottom </a></li>
+        <li><a href="javascript:thingiview.setCameraView('diagonal');"> Diagonal </a></li>
+</ul>
+</div>
+
+<div class="btn-group-vertical btn-group-md">
+      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(5);"> Zoom in </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(-5);"> Zoom out </button>
+</div>
+<div class="btn-group-vertical btn-group-md">
+      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(true);"> Rotation On </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(false);"> Rotation Off </button>
+</div>
+<div class="btn-group-vertical btn-group-md">
+      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('wireframe');"> Wireframe </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
+</div>
+<!--viewer--> 
+<div id="viewer" class="padded" style="width:500px;height:500px;" onLoad="removePlaneAndZoomOut();"></div>
 </div>
 <div class-"col-md-1"></div>
 </div>
