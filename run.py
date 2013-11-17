@@ -21,6 +21,11 @@ def carousel():
     return render_template('carousel.mak', nam='mako',
                             integer=integer)
 
+
+@app.route('/slider')
+def slider():
+    return render_template('slider.mak', nam='mako')
+
 @app.route('/')
 def index():
     integer = 7
