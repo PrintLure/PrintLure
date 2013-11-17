@@ -34,9 +34,9 @@
         Eyes <span class="caret"></span>
 </button>
 <ul class="dropdown-menu" role="menu">
+        <li><a href="#"> Mean </a></li>
         <li><a href="#"> Big </a></li>
         <li><a href="#"> Small </a></li>
-        <li><a href="#"> Mean </a></li>
 </ul>
 </div>
 <div class="btn btn-group navbar-btn">
