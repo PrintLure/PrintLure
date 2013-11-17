@@ -23,9 +23,42 @@
             //thingiview.setCameraZoom(-20);
         }
         </script>
-<div class="col-md-1"></div>
-<div class="col-md-2">
-<div class="btn-group-vertical btn-group-sm padded">
+<div class="col-md-2"></div>
+<div class="col-md-1">
+<div class="btn-group padded">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Eyes <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="#"> Big </a></li>
+        <li><a href="#"> Small </a></li>
+        <li><a href="#"> Mean </a></li>
+</ul>
+</div>
+<div class="btn-group padded">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Mouth <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Big </a></li>
+        <li><a href="#"> Lipless </a></li>
+        <li><a href="#"> Small </a></li>
+        <li><a href="#"> Wide </a></li>
+        <li><a href="#"> Narrow </a></li>
+        <li><a href="#"> Bill </a></li>
+</ul>
+</div>
+<div class="btn-group padded">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Tail <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="#"> Long </a></li>
+        <li><a href="#"> Stubby </a></li>
+        <li><a href="#"> Short </a></li>
+</ul>
+</div>
+<!--<div class="btn-group-vertical btn-group-sm padded">
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
@@ -33,7 +66,7 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> Bill Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
-</div>
+</div>--> 
 </div>
 
 <div class="col-md-6">
