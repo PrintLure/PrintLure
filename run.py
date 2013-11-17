@@ -15,6 +15,12 @@ app = Flask(__name__)
 app.template_folder = "templates"
 mako = MakoTemplates(app)
 
+@app.route('/carousel')
+def carousel():
+    integer = 7
+    return render_template('carousel.mak', nam='mako',
+                            integer=integer)
+
 @app.route('/')
 def index():
     integer = 7
