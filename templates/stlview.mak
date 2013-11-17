@@ -22,7 +22,7 @@
             thingiview.loadSTL("/static/data/popper_5.stl");
         }
         </script>
-<div class="btn-group btn-group-sm" style="padding:5px;">
+<div class="btn-group btn-group-sm padded">
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
@@ -32,7 +32,7 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>
 
-<div class="btn-group">
+<div class="btn-group padded">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Perspective <span class="caret"></span>
 </button>
@@ -43,7 +43,7 @@
         <li><a href="javascript:thingiview.setCameraView('diagonal');"> Diagonal </a></li>
 </ul>
 </div>
-<div class="btn-group">
+<div class="btn-group padded">
 <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
         Model Color <span class="caret"></span>
 </button>
@@ -74,7 +74,7 @@
       <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
 </div>
 <!--viewer--> 
-<div id="viewer" style="width:500px;height:500px;padding:10px;"></div>
+<div id="viewer" class="padded" style="width:500px;height:500px;"></div>
 </div>
 </div>
 </div>
