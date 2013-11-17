@@ -6,7 +6,11 @@
 <p><a href="#" class="btn btn-primary btn-lg">Github Repo&raquo;</a></p>
 </div>
 -->
-
+<style>
+    .margin-left-13 {
+        margin-left: 13px;
+    }
+</style>
 <div class="row">
     <script src="/static/js/Three.js"></script>
     <script src="/static/js/plane.js"></script>
@@ -84,10 +88,10 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>--> 
-    <a class="padded btn btn-success navbar-btn" href="/static/data/walking_popper.stl"> Download </a>
-<div class="input-group navbar-btn">
+    <a class="btn btn-success navbar-btn margin-left-13" href="/static/data/walking_popper.stl"> Download </a>
+<div class="input-group navbar-btn margin-left-13">
       <span class="input-group-btn">
-        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Text</button>
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Custom Text</button>
       </span>
       <input type="text" class="form-control">
 </div><!-- /input-group -->
