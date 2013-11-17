@@ -42,8 +42,8 @@ Thingiview = function(containerId) {
   var rotateListener = null;
   var wasRotating    = null;
 
-  var cameraView = 'diagonal';
-  var cameraZoom = 0;
+  var cameraView = 'side';
+  var cameraZoom = -20;
   var rotate = false;
   var backgroundColor = '#606060';
   var objectMaterial = 'solid';
