@@ -8,7 +8,6 @@
 -->
 
 <div class="row">
-    <div class="col-md-6">
     <script src="/static/js/Three.js"></script>
     <script src="/static/js/plane.js"></script>
     <script src="/static/js/thingiview.js"></script>
@@ -22,7 +21,9 @@
             thingiview.loadSTL("/static/data/popper_5.stl");
         }
         </script>
-<div class="btn-group btn-group-sm padded">
+<div class="col-md-1"></div>
+<div class="col-md-2">
+<div class="btn-group-vertical btn-group-sm padded">
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
@@ -31,7 +32,9 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>
+</div>
 
+<div class="col-md-6">
 <div class="btn-group padded">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Perspective <span class="caret"></span>
@@ -41,23 +44,6 @@
         <li><a href="javascript:thingiview.setCameraView('side');"> Side </a></li>
         <li><a href="javascript:thingiview.setCameraView('bottom');"> Bottom </a></li>
         <li><a href="javascript:thingiview.setCameraView('diagonal');"> Diagonal </a></li>
-</ul>
-</div>
-<div class="btn-group padded">
-<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
-        Model Color <span class="caret"></span>
-</button>
-<ul class="dropdown-menu" role="menu">
-        <li><a href="javascript:thingiview.setObjectColor('#F7977A');"> Red </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#FDC68A');"> Orange </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#F6989D');"> Magenta </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#FFF79A');"> Yellow </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#C4DF9B');"> Green </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#7EA7D8');"> Cyan </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#8493CA');"> Blue </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#A187BE');"> Violet </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#C69C6E');"> Brown </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
 </ul>
 </div>
 
@@ -76,7 +62,26 @@
 <!--viewer--> 
 <div id="viewer" class="padded" style="width:500px;height:500px;"></div>
 </div>
-<div class="col-md-6">
+<div class-"col-md-2">
+<div class="btn-group padded">
+<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+        Model Color <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.setObjectColor('#F7977A');"> Red </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#FDC68A');"> Orange </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#F6989D');"> Magenta </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#FFF79A');"> Yellow </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#C4DF9B');"> Green </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#7EA7D8');"> Cyan </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#8493CA');"> Blue </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#A187BE');"> Violet </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#C69C6E');"> Brown </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-4">
     <div class="slider" id="slider">
         <p>
         <label for="amount">Donation amount ($50 increments):</label>
