@@ -51,10 +51,16 @@
         Model Color <span class="caret"></span>
 </button>
 <ul class="dropdown-menu" role="menu">
-        <li><a style="color:'#ff0000';" href="javascript:thingiview.setObjectColor('#ff0000');"> Red </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#00ff00');"> Green </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#0000ff');"> Blue </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#606060');"> Grey </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#F7977A');"> Red </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#FDC68A');"> Orange </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#F6989D');"> Magenta </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#FFF79A');"> Yellow </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#C4DF9B');"> Green </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#7EA7D8');"> Cyan </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#8493CA');"> Blue </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#A187BE');"> Violet </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#C69C6E');"> Brown </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
 </ul>
 </div>
 
