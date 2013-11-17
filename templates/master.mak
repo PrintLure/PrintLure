@@ -80,7 +80,7 @@
                   <a target="_blank" href="http://ischool.syr.edu"><img width="100%" src="/static/img/logos/iSchoolLogoNoSeal.png"/ ></a>
               </div>
               <div class="col-sm-3">
-                  <a target="_blank" href="http://syracusetechgarden.com"><img width="100%" src="/static/img/logos/syracusetechgarden.png"/ ></a>
+                  <a target="_blank" href="http://thetechgarden.com"><img width="100%" src="/static/img/logos/syracusetechgarden.png"/ ></a>
               </div>
           </div>
       </footer>
