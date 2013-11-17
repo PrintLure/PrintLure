@@ -69,14 +69,17 @@
       <footer>
           <h3>Powered By</h3>
           <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                   <a target="_blank" href="http://saltmaker.org"><img width="100%" src="/static/img/logos/cropped-SALT-HEADER.png"/ ></a>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                   <a target="_blank" href="http://syracuse.startupweekend.com"><img width="100%" src="/static/img/logos/Startup-Banner_FINAL-copy.png"/ ></a>
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                   <a target="_blank" href="http://ischool.syr.edu"><img width="100%" src="/static/img/logos/iSchoolLogoNoSeal.png"/ ></a>
+              </div>
+              <div class="col-sm-3">
+                  <a target="_blank" href="http://syracusetechgarden.com"><img width="100%" src="/static/img/logos/syracusetechgarden.png"/ ></a>
               </div>
           </div>
       </footer>
