@@ -100,7 +100,7 @@
 <div class-"col-md-2">
 <div class="input-group">
       <span class="input-group-btn">
-        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Go!</button>
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Custom Text </button>
       </span>
       <input type="text" class="form-control">
 </div><!-- /input-group -->
