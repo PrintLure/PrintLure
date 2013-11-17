@@ -1,29 +1,22 @@
 <%inherit file="master.mak"/>
-
-<div class="jumbotron">
-<h1>Hello, world!</h1>
-<p>This is a wonderful experiment using Twitter Boostrap, Flask, and Mako to make awesome.</p>
-<p><a href="#" class="btn btn-primary btn-lg">Github Repo&raquo;</a></p>
-</div>
-
 <div class="row">
     <div class="col-md-4">
-        <h2>Twitter Bootstrap</h2>
-        <p><em>"Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."</em></p>
-        <p><a target="_blank" class="btn btn-default" href="http://getbootstrap.com/">View details &raquo;</a></p>
+        <div class="shadowcard padded">
+            <div>
+                <img class="uglymug pull-left img-circle" src="/static/img/faces/remypixel-thumb.png" alt="text" />
+                <h4 class="item padded"><a target="_blank" href="http://twitter.com/remy_d">Remy DeCausemaker</a></h4>
+                <h6 class="item padded">Hackademic</h6>
+                <div>
+                    <p>
+                    As Assistant Director of the <a href="http://rit.edu">Rochester Institute of Technology</a> Lab for Technological Literacy, Remy serves as Campaign Architect of <a href="http://foss.rit.edu">FOSS@</a><a href="http://magic.rit.edu">MAGIC</a>. Inside and outside of the classroom, he helps mentor and guide the students of RIT's <a href="http://teachingopensource.org/index.php/RIT">Humanitarian Free/Opensource Software Development course</a>. He is a co-founder of <a href="http://civx.us">CIVX.us</a>, who's mission is to improve access, openness, and transparency of public information. With help from <a href="http://www.sugarlabs.org/">Sugarlabs</a>, <a href="http://teachingopensource.org">TeachingOpensource</a>, <a href="http://softwarefreedom.org">The Software Freedom Law Center</a>, <a href="http://fedoraproject.org">The Fedora Project</a>, and many others, Remy brings <a href="http://opensource.com/open-source-way">The Open Source Way</a> to campuses, conferences, and campaigns everywhere he can. You can keep up with his story via <a href="https://identi.ca/remyd">Identi.ca</a>, <a href="https://twitter.com/remy_d">Twitter</a>, and his <a href="http://foss.rit.edu/blog/decause">FOSS@RIT Blog.</a>
+                    </p>
+                    <ul class="cardlist list-unstyled">
+                    <li><a target="_blank" href="http://github.com/decause">GitHub</a></li>
+                    <li><a target="_blank" href="http://bit.ly/hfossrit">HFOSS Course</a></li>
+                    <li><a target="_blank" href="http://magic.rit.edu">RIT MAGIC Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div><!--/span-->
-
-    <div class="col-md-4">
-        <h2>Flask</h2>
-        <p><em>"Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions."</em></p>
-        <p><a class="btn btn-default" target="_blank" href="http://flask.pocoo.org/">View details &raquo;</a></p>
-    </div><!--/span-->
-    <div class="col-md-4">
-
-        <h2>Mako</h2>
-        <p><em>"Mako is used by the python.org website, as well as reddit.com where it
-        delivers over one billion page views per month. It is the default template
-        language included with the Pylons and Pyramid web frameworks."</em></p>
-        <p><a class="btn btn-default" target="_blank" href="http://www.makotemplates.org/">View details &raquo;</a></p>
-</div><!--/span-->
 </div><!--/row-->
