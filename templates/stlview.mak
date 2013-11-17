@@ -11,14 +11,16 @@
     <script src="/static/js/Three.js"></script>
     <script src="/static/js/plane.js"></script>
     <script src="/static/js/thingiview.js"></script>
-
         <script>
         window.onload = function() {
             thingiurlbase = "/static/js";
             thingiview = new Thingiview("viewer");
             thingiview.setObjectColor('#C0D8F0');
+            thingiview.setShowPlane(false);
             thingiview.initScene();
             thingiview.loadSTL("/static/data/popper_5.stl");
+            //thingiview.setCameraView('side');
+            //thingiview.setCameraZoom(-20);
         }
         </script>
 <div class="col-md-1"></div>
@@ -60,9 +62,15 @@
       <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
 </div>
 <!--viewer--> 
-<div id="viewer" class="padded" style="width:500px;height:500px;"></div>
+<div id="viewer" class="padded" style="width:500px;height:500px;" onLoad="removePlaneAndZoomOut();"></div>
 </div>
 <div class-"col-md-2">
+<div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Go!</button>
+      </span>
+      <input type="text" class="form-control">
+</div><!-- /input-group -->
 <div class="btn-group padded">
 <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
         Model Color <span class="caret"></span>
@@ -80,19 +88,7 @@
         <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
 </ul>
 </div>
-<div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Go!</button>
-      </span>
-      <input type="text" class="form-control">
-    </div><!-- /input-group -->
 </div>
-<div class="col-md-4">
-    <div class="slider" id="slider">
-        <p>
-        <label for="amount">Donation amount ($50 increments):</label>
-        <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
-        </p>
-    </div>
+<div class-"col-md-1"></div>
 </div>
 </div>
