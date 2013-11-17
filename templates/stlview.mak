@@ -23,9 +23,15 @@
             //thingiview.setCameraZoom(-20);
         }
         </script>
-<div class="col-md-2"></div>
-<div class="col-md-1">
-<div class="btn-group padded">
+<div class="col-md-1"> </div>
+<div class="col-md-5">
+<div class="input-group navbar-btn">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Text</button>
+      </span>
+      <input type="text" class="form-control">
+</div><!-- /input-group -->
+<div class="btn navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Eyes <span class="caret"></span>
 </button>
@@ -35,7 +41,7 @@
         <li><a href="#"> Mean </a></li>
 </ul>
 </div>
-<div class="btn-group padded">
+<div class="btn navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Mouth <span class="caret"></span>
 </button>
@@ -48,7 +54,7 @@
         <li><a href="#"> Bill </a></li>
 </ul>
 </div>
-<div class="btn-group padded">
+<div class="btn navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Tail <span class="caret"></span>
 </button>
@@ -58,7 +64,24 @@
         <li><a href="#"> Short </a></li>
 </ul>
 </div>
-<!--<div class="btn-group-vertical btn-group-md padded">
+<div class="btn navbar-btn">
+<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+        Model Color <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.setObjectColor('#F7977A');"> Red </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#FDC68A');"> Orange </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#F6989D');"> Magenta </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#FFF79A');"> Yellow </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#C4DF9B');"> Green </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#7EA7D8');"> Cyan </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#8493CA');"> Blue </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#A187BE');"> Violet </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#C69C6E');"> Brown </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
+</ul>
+</div>
+<!--<div class="btn-group-vertical btn-group">
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
@@ -67,9 +90,10 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>--> 
-</div>
+    <a class="padded btn btn-success navbar-btn" href="/static/data/walking_popper.stl"> Download </a>
+</div><!-- /col-md-2 -->
 
-<div class="col-md-6">
+<div class="col-md-5">
 <div class="btn-group padded">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Perspective <span class="caret"></span>
@@ -96,31 +120,6 @@
 </div>
 <!--viewer--> 
 <div id="viewer" class="padded" style="width:500px;height:500px;" onLoad="removePlaneAndZoomOut();"></div>
-</div>
-<div class-"col-md-2">
-<div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Custom Text </button>
-      </span>
-      <input type="text" class="form-control">
-</div><!-- /input-group -->
-<div class="btn-group padded">
-<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
-        Model Color <span class="caret"></span>
-</button>
-<ul class="dropdown-menu" role="menu">
-        <li><a href="javascript:thingiview.setObjectColor('#F7977A');"> Red </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#FDC68A');"> Orange </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#F6989D');"> Magenta </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#FFF79A');"> Yellow </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#C4DF9B');"> Green </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#7EA7D8');"> Cyan </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#8493CA');"> Blue </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#A187BE');"> Violet </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#C69C6E');"> Brown </a></li>
-        <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
-</ul>
-</div>
 </div>
 <div class-"col-md-1"></div>
 </div>
