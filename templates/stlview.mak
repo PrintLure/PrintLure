@@ -23,14 +23,13 @@
         }
         </script>
 <div class="btn-group btn-group-sm" style="padding:5px;">
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/super_fyyran-jarv.stl');"> Popper 5 </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> Lipless </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> Bill Mouth </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>
 
 <div class="btn-group">
