@@ -76,10 +76,12 @@
 <!--viewer--> 
 <div id="viewer" class="padded" style="width:500px;height:500px;"></div>
 </div>
-<script>
-$( "#slider" ).slider();
-</script>
 <div class="col-md-6">
-    <div id="slider"></div>
+    <div class="slider" id="slider">
+        <p>
+        <label for="amount">Donation amount ($50 increments):</label>
+        <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
+        </p>
+    </div>
 </div>
 </div>
