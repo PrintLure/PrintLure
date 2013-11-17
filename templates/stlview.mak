@@ -80,6 +80,12 @@
         <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
 </ul>
 </div>
+<div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Go!</button>
+      </span>
+      <input type="text" class="form-control">
+    </div><!-- /input-group -->
 </div>
 <div class="col-md-4">
     <div class="slider" id="slider">
