@@ -58,7 +58,7 @@
         <li><a href="#"> Short </a></li>
 </ul>
 </div>
-<!--<div class="btn-group-vertical btn-group-sm padded">
+<!--<div class="btn-group-vertical btn-group-md padded">
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
@@ -82,15 +82,15 @@
 </ul>
 </div>
 
-<div class="btn-group-vertical btn-group-sm">
+<div class="btn-group-vertical btn-group-md">
       <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(5);"> Zoom in </button>
       <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(-5);"> Zoom out </button>
 </div>
-<div class="btn-group-vertical btn-group-sm">
+<div class="btn-group-vertical btn-group-md">
       <button type="button" class="btn btn-success" onClick="thingiview.setRotation(true);"> Rotation On </button>
       <button type="button" class="btn btn-success" onClick="thingiview.setRotation(false);"> Rotation Off </button>
 </div>
-<div class="btn-group-vertical btn-group-sm">
+<div class="btn-group-vertical btn-group-md">
       <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('wireframe');"> Wireframe </button>
       <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
 </div>
