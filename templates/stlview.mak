@@ -19,20 +19,18 @@
             thingiview = new Thingiview("viewer");
             thingiview.setObjectColor('#C0D8F0');
             thingiview.initScene();
-            thingiview.loadSTL("/static/data/walking_popper.stl");
+            thingiview.loadSTL("/static/data/popper_5.stl");
         }
         </script>
-<div class="btn-group">
-<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-        Model <span class="caret"></span>
-</button>
-<ul class="dropdown-menu" role="menu">
-        <li><a href="javascript:thingiview.loadSTL('/static/data/popper_5.stl');"> Popper 5 </a></li>
-        <li><a href="javascript:thingiview.loadSTL('/static/data/walking_popper.stl');"> Walking Popper</a></li>
-        <li><a href="javascript:thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> needs a name </a></li>
-        <li><a href="javascript:thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> needs a name </a></li>
-        <li><a href="javascript:thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> needs a name </a></li>
-</ul>
+<div class="btn-group btn-group-sm" style="padding:5px;">
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/super_fyyran-jarv.stl');"> Popper 5 </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Popper 5 </button>
 </div>
 
 <div class="btn-group">
@@ -78,5 +76,6 @@
 </div>
 <!--viewer--> 
 <div id="viewer" style="width:500px;height:500px;padding:10px;"></div>
+</div>
 </div>
 </div>
