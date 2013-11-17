@@ -36,7 +36,7 @@
         <p class="navbar-text pull-right">
           Fork me on <a target="_blank" href="http://github.com/printlure/PrintLure" class="navbar-link">Github</a>
         </p>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navtext">
           <li><a href="/about">About</a></li>
           <li><a href="/stlview">Customize</a></li>
         </ul>
