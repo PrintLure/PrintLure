@@ -76,5 +76,10 @@
 <!--viewer--> 
 <div id="viewer" class="padded" style="width:500px;height:500px;"></div>
 </div>
+<script>
+$( "#slider" ).slider();
+</script>
+<div class="col-md-6">
+    <div id="slider"></div>
 </div>
 </div>
