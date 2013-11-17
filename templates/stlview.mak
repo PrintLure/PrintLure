@@ -8,21 +8,24 @@
 -->
 
 <div class="row">
-    <div class="col-md-6">
     <script src="/static/js/Three.js"></script>
     <script src="/static/js/plane.js"></script>
     <script src="/static/js/thingiview.js"></script>
-
         <script>
         window.onload = function() {
             thingiurlbase = "/static/js";
             thingiview = new Thingiview("viewer");
             thingiview.setObjectColor('#C0D8F0');
+            thingiview.setShowPlane(false);
             thingiview.initScene();
             thingiview.loadSTL("/static/data/popper_5.stl");
+            //thingiview.setCameraView('side');
+            //thingiview.setCameraZoom(-20);
         }
         </script>
-<div class="btn-group btn-group-sm padded">
+<div class="col-md-1"></div>
+<div class="col-md-2">
+<div class="btn-group-vertical btn-group-sm padded">
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/popper_5.stl');"> Small Mouth </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper_repop.stl');"> Mean Eyes </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');"> Big Mouth </button>
@@ -31,7 +34,9 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/cool_duup-turing.stl');"> Solf Bait </button>
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>
+</div>
 
+<div class="col-md-6">
 <div class="btn-group padded">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Perspective <span class="caret"></span>
@@ -43,6 +48,29 @@
         <li><a href="javascript:thingiview.setCameraView('diagonal');"> Diagonal </a></li>
 </ul>
 </div>
+
+<div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(5);"> Zoom in </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(-5);"> Zoom out </button>
+</div>
+<div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(true);"> Rotation On </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(false);"> Rotation Off </button>
+</div>
+<div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('wireframe');"> Wireframe </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
+</div>
+<!--viewer--> 
+<div id="viewer" class="padded" style="width:500px;height:500px;" onLoad="removePlaneAndZoomOut();"></div>
+</div>
+<div class-"col-md-2">
+<div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Go!</button>
+      </span>
+      <input type="text" class="form-control">
+</div><!-- /input-group -->
 <div class="btn-group padded">
 <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
         Model Color <span class="caret"></span>
@@ -60,28 +88,7 @@
         <li><a href="javascript:thingiview.setObjectColor('#998675');"> Grey </a></li>
 </ul>
 </div>
-
-<div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(5);"> Zoom in </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(-5);"> Zoom out </button>
 </div>
-<div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(true);"> Rotation On </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(false);"> Rotation Off </button>
-</div>
-<div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('wireframe');"> Wireframe </button>
-      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
-</div>
-<!--viewer--> 
-<div id="viewer" class="padded" style="width:500px;height:500px;"></div>
-</div>
-<div class="col-md-6">
-    <div class="slider" id="slider">
-        <p>
-        <label for="amount">Donation amount ($50 increments):</label>
-        <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" />
-        </p>
-    </div>
+<div class-"col-md-1"></div>
 </div>
 </div>
