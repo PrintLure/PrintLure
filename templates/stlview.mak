@@ -1,10 +1,11 @@
 <%inherit file="master.mak"/>
-
+<!--
 <div class="jumbotron">
 <h1>STL View</h1>
 <p>3D Model Viewer</p>
 <p><a href="#" class="btn btn-primary btn-lg">Github Repo&raquo;</a></p>
 </div>
+-->
 
 <div class="row">
     <div class="col-md-6">
@@ -26,8 +27,11 @@
         Model <span class="caret"></span>
 </button>
 <ul class="dropdown-menu" role="menu">
-        <li><a href="javascript:thingiview.loadSTL('/static/data/popper_5.stl');">Popper 5</a></li>
-        <li><a href="javascript:thingiview.loadSTL('/static/data/walking_popper.stl');">Walking Popper</a></li>
+        <li><a href="javascript:thingiview.loadSTL('/static/data/popper_5.stl');"> Popper 5 </a></li>
+        <li><a href="javascript:thingiview.loadSTL('/static/data/walking_popper.stl');"> Walking Popper</a></li>
+        <li><a href="javascript:thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> needs a name </a></li>
+        <li><a href="javascript:thingiview.loadSTL('/static/data/Fishing_lure_3_large_body.stl');"> needs a name </a></li>
+        <li><a href="javascript:thingiview.loadSTL('/static/data/Fishing_lure_2.stl');"> needs a name </a></li>
 </ul>
 </div>
 
