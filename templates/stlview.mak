@@ -25,13 +25,7 @@
         </script>
 <div class="col-md-1"> </div>
 <div class="col-md-5">
-<div class="input-group navbar-btn">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Text</button>
-      </span>
-      <input type="text" class="form-control">
-</div><!-- /input-group -->
-<div class="btn navbar-btn">
+<div class="btn btn-group navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Eyes <span class="caret"></span>
 </button>
@@ -41,7 +35,7 @@
         <li><a href="#"> Mean </a></li>
 </ul>
 </div>
-<div class="btn navbar-btn">
+<div class="btn btn-group navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Mouth <span class="caret"></span>
 </button>
@@ -54,7 +48,7 @@
         <li><a href="#"> Bill </a></li>
 </ul>
 </div>
-<div class="btn navbar-btn">
+<div class="btn btn-group navbar-btn">
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Tail <span class="caret"></span>
 </button>
@@ -64,7 +58,7 @@
         <li><a href="#"> Short </a></li>
 </ul>
 </div>
-<div class="btn navbar-btn">
+<div class="btn btn-group navbar-btn">
 <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
         Model Color <span class="caret"></span>
 </button>
@@ -91,6 +85,12 @@
       <button type="button" class="btn btn-success" onClick="thingiview.loadSTL('/static/data/Fishing_lure_1.stl');"> Smooth Body </button>
 </div>--> 
     <a class="padded btn btn-success navbar-btn" href="/static/data/walking_popper.stl"> Download </a>
+<div class="input-group navbar-btn">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" onClick="thingiview.loadSTL('/static/data/walking_popper.stl');">Text</button>
+      </span>
+      <input type="text" class="form-control">
+</div><!-- /input-group -->
 </div><!-- /col-md-2 -->
 
 <div class="col-md-5">
