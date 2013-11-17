@@ -23,9 +23,9 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-default">
       <div class="navbar-header">
-        <a class="navbar-brand" href="/">HOME</a>
+          <a class="navbar-brand" href="/"><img src="/static/img/printlure-logo-trace-90.png"/ ></a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -38,7 +38,7 @@
         </p>
         <ul class="nav navbar-nav">
           <li><a href="/about">About</a></li>
-          <li><a href="/story">The Story</a></li>
+          <li><a href="/stlview">Customize</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </nav>
