@@ -68,8 +68,8 @@
       <hr />
 
       <footer>
-          <h3>Powered By</h3>
-          <div class="row">
+          <h3 class="padded">Powered By</h3>
+          <div class="row padded">
               <div class="col-sm-3">
                   <a target="_blank" href="http://saltmaker.org"><img width="100%" src="/static/img/logos/cropped-SALT-HEADER.png"/ ></a>
               </div>
