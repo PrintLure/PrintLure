@@ -20,7 +20,6 @@
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="${url_for('static', filename='img/favicon.png')}">
     <script src="/static/js/jquery.js"></script>
-    <script src="/static/js/jquery-ui.min.js"></script>
   </head>
 
   <body>
@@ -39,8 +38,8 @@
           Fork me on <a target="_blank" href="http://github.com/printlure/PrintLure" class="navbar-link">Github</a>
         </p>
         <ul class="nav navbar-nav navtext">
-          <li><a href="/about">About</a></li>
           <li><a href="/stlview">Customize</a></li>
+          <li><a href="/about">Team</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </nav>
