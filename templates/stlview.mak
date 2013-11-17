@@ -7,7 +7,7 @@
 </div>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
     <script src="/static/js/Three.js"></script>
     <script src="/static/js/plane.js"></script>
     <script src="/static/js/thingiview.js"></script>
@@ -21,30 +21,52 @@
             thingiview.loadSTL("/static/data/walking_popper.stl");
         }
         </script>
+<div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Model <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.loadSTL('/static/data/popper_5.stl');">Popper 5</a></li>
+        <li><a href="javascript:thingiview.loadSTL('/static/data/walking_popper.stl');">Walking Popper</a></li>
+</ul>
+</div>
 
-<p>    
-  <input onclick="thingiview.setCameraView('top');" type="button" value="Top" />.
-  <input onclick="thingiview.setCameraView('side');" type="button" value="Side" />.
-  <input onclick="thingiview.setCameraView('bottom');" type="button" value="Bottom" />.
-  <input onclick="thingiview.setCameraView('diagonal');" type="button" value="Diagonal" />.
-.         
-  <input onclick="thingiview.setCameraZoom(5);" type="button" value="Zoom +" />.
-  <input onclick="thingiview.setCameraZoom(-5);" type="button" value="Zoom -" />.
-.         
-  Rotation: <input onclick="thingiview.setRotation(true);" type="button" value="on" /> | <input onclick="thingiview.setRotation(false);" type="button" value="off" />
-</p>   
-          
-<div id="viewer" style="width:400px;height:400px"></div>
-          
-<p>    
-  <input onclick="thingiview.setObjectMaterial('wireframe');" type="button" value="Wireframe" />.
-  <input onclick="thingiview.setObjectMaterial('solid');" type="button" value="Solid" />
-</p>   
-          
-<p>    
-  Plane: <a href="#" onclick="thingiview.setShowPlane(false)">Hide</a> | <a href="#" onclick="thingiview.setShowPlane(true)">Show</a><br/>
-  Background Color: <a href="#" onclick="thingiview.setBackgroundColor('#606060')">Gray</a> | <a href="#" onclick="thingiview.setBackgroundColor('#ffffff')">White</a> | <a href="#" onclick="thingiview.setBackgroundColor('#000000')">Black</a><br/>
-  Object Color: <a href="#" onclick="thingiview.setObjectColor('#ffffff')">White</a> | <a href="#" onclick="thingiview.setObjectColor('#aa0000')">Red</a> | <a href="#" onclick="thingiview.setObjectColor('#CDFECD')">Green</a> | <a href="#" onclick="thingiview.setObjectColor('#C0D8F0')">Blue</a><br/>
-</p>   
+<div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Perspective <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a href="javascript:thingiview.setCameraView('top');"> Top </a></li>
+        <li><a href="javascript:thingiview.setCameraView('side');"> Side </a></li>
+        <li><a href="javascript:thingiview.setCameraView('bottom');"> Bottom </a></li>
+        <li><a href="javascript:thingiview.setCameraView('diagonal');"> Diagonal </a></li>
+</ul>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+        Model Color <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+        <li><a style="color:'#ff0000';" href="javascript:thingiview.setObjectColor('#ff0000');"> Red </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#00ff00');"> Green </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#0000ff');"> Blue </a></li>
+        <li><a href="javascript:thingiview.setObjectColor('#606060');"> Grey </a></li>
+</ul>
+</div>
 
+<div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(5);"> Zoom in </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setCameraZoom(-5);"> Zoom out </button>
+</div>
+<div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(true);"> Rotation On </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setRotation(false);"> Rotation Off </button>
+</div>
+<div class="btn-group-vertical btn-group-sm">
+      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('wireframe');"> Wireframe </button>
+      <button type="button" class="btn btn-success" onClick="thingiview.setObjectMaterial('solid');"> Solid </button>
+</div>
+<!--viewer--> 
+<div id="viewer" style="width:500px;height:500px;padding:10px;"></div>
+</div>
 </div>
