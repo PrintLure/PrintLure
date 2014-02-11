@@ -1,3 +1,4 @@
+#OpenShift Deployment Hack
 import os
 
 from run import app
